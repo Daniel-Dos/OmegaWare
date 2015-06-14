@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Fale Conosco</title>
+<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+<link rel="stylesheet" type="text/css" href="css/form.css" />
+</head>
+
+<body>
+	<div id="interface">
+		<header id="cabecalho">
+			<nav id="menu">
+				<ul>
+					<a href="index.html"><li>HOME</li></a>
+					<a href="empresa.html"><li>A Empresa</li></a>
+					<a href="solucoes.html"><li>Soluções</li></a>
+					<a href="referencia.html"><li>Aprenda Mais</li></a>
+					<a href="contato.html"><li>Fale Conosco</li></a>
+				</ul>
+			</nav>
+		</header>
+
+
+		<!-- logotipo da empresa -->
+		<figure class="foto-legenda">
+			<img src="imagens/logo.png" alt="Logo Marca">
+		</figure>
+
+
+		<hgroup>
+			<h2>Fale Conosco</h2>
+		</hgroup>
+
+
+		<!-- imagem do formulario -->
+		<img src="imagens/contato.jpg" id="foto-contato" />
+		<p style="color: highlight;">Entre em contato conosco. Estamos
+			prontos para falar com você.</p>
+
+
+        <!-- Aqui começa o formulario -->        
+		<form method="post" action="#">
+			<p>
+				<label>Nome:</label> <input type="text" size="25"
+					placeholder="Nome Completo" required="required" />
+			</p>
+			<p>
+				<label>E-Mail:</label> <input type="text" size="25" placeholder="@"
+					required="required" />
+			</p>
+
+			<p>
+				<label> Assunto: 
+				<select name="assunto">
+				        <option>---</option>
+						<option>Dúvidas</option>
+						<option>Atendimento</option>
+						<option>Suporte</option>
+						<option>Reclamação</option>
+						<option>Fincanceiro</option>
+						<option>Desenvolvimento</option>
+						<option>Outros</option>
+				</select>
+				</label>
+			</p>
+
+			<p>
+				<label>Mensagem: <br /> <textarea name="Comments" rows="10"
+						cols="36"> Digite a sua mensagem...</textarea></label>
+			</p>
+			<p>
+			<input type="submit" value="Enviar"/>
+			<input type="reset" value="Limpar"/>
+			</p>
+			
+		</form>  <!-- fim do formulario -->
+		
+
+		<footer id="rodape">
+			<p>
+				Pós-Graduação em JAVA - Módulo: Web Design<br /> Aluno:Daniel Dias
+				dos Santos<br /> Matricula: 201410029522<br />Turma:2015.1
+			</p>
+			
+		</footer>
+	</div>
+
+</body>
+</html>
