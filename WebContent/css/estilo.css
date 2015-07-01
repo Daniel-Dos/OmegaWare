@@ -1,23 +1,32 @@
-@CHARSET "UTF-8";
+﻿@CHARSET "UTF-8";
 
+/* Pos-graduação
+   Desenvolvimento Java - WEB DESING-2015.1
+   Matricula: 201410029522
+   Daniel Dias dos Santos
+
+*/
 @import url(http://fonts.googleapis.com/css?family=Titillium+Web);
 	/*importado da google*/
 body {
 	font-family: Arial, sans-serif;
 	background-image:
-		url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/background-body.jpg");
+		url("../imagens/background-body.jpg");
+		
 }
 
 /*formatação da interface*/
 div#interface {
 	width: 1150px;
 	background-image:
-		url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/background-interface.jpg");
+		url("../imagens/background-interface.jpg");
 	margin: -20px auto 0px auto;
+	
 	/*order: cima. direita, baixo e esquerda - para centralizar*/
 	box-shadow: 0px 0px 45px rgba(233, 233, 233, 0.5);
 	padding: 25px;
 	position: relative;
+	
 	/*arrendondamento da bordas*/
 	border-top-left-radius: 5em;
 	border-top-right-radius: 5em;
@@ -60,9 +69,9 @@ hgroup h2 {
 /*formatação da imagem com legendas*/
 figure.foto-legenda {
 	possition: relative;
-	border: 1px solid white;
 	background-color: #ffffff;
 	box-shadow: 0px 0px 30px rgba(233,233,233,1);
+	
 	/*arrendondamento da bordas*/
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
@@ -105,16 +114,19 @@ header#cabecalho nav#menu li {
 	background-color: #dddddd; /*cor de fundo*/
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 	padding: 10px;
+	
 	/*preenchimento CSS definir o espaço entre a borda do elemento e o conteúdo do elemento*/
 	margin: 1px; /*espaçamento entre os itens*/
+	
 	/*para navegadores antigos*/
 	-webkit-transition: background-color 1s;
 	-moz-transition: background-color 1s;
 	-o-transition: background-color 1s;
 	-ms-transition: background-color 1s;
 	transition: background-color 1s;
+	
 	/*arrendondamento da bordas*/
-	border: 1px #000000 solid;
+	
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-left-radius: 2em;
@@ -136,6 +148,7 @@ section#corpo {
 	background-color: #dddddd;
 	box-shadow: 0px 0px 50px rgba(255, 0, 0, .5);
 	margin: 12px;
+	
 	/*arrendondamento*/
 	border-top-right-radius: 9em;
 	border-bottom-left-radius: 9em;
@@ -149,6 +162,7 @@ aside#lateral {
 	padding: 25px;
 	box-shadow: 0px 0px 50px rgba(255, 0, 0, .5);
 	margin: 10px;
+	
 	/*arrendondamento*/
 	border-top-left-radius: 12em;
 	border-bottom-right-radius: 12em;
@@ -181,8 +195,9 @@ footer#rodape {
 	clear: both; /*limpa a configuração*/
 	background-color: #ffffff;
 	box-shadow: 0px 0px 30px rgba(233,233,233,1);
+	
 	/*arrendondamento*/
-	border: 1px #000000 solid;
+	
 	border-top-left-radius: 2em;
 	border-top-right-radius: 2em;
 	border-bottom-left-radius: 2em;

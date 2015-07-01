@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+/* Pos-graduação
+   Desenvolvimento Java - WEB DESING-2015.1
+   Matricula: 201410029522
+   Daniel Dias dos Santos
+
+*/
 
 ul#album-fotos {
 	width: 700px;
@@ -77,85 +83,86 @@ ul#album-fotos li#foto06:hover {
 }
 
 /*para imagens*/
+
 ul#album-fotos li#foto01 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/1.jpg");
+	background: url("../imagens/1.jpg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto02 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/2.jpg");
+	background: url("../imagens/2.jpg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto03 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/3.jpg");
+	background: url("../imagens/3.jpg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto04 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/4.jpg");
+	background: url("../imagens/4.jpg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto05 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/5.jpg");
+	background: url("../imagens/5.jpg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto06 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/6.png");
+	background: url("../imagens/6.png");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto07 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/fto1.jpg");
+	background: url("../imagens/fto1.jpg");
 	background-position: 50% 50%;
 	background-size: 400px 400px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto08 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/fto2.jpg");
+	background: url("../imagens/fto2.jpg");
 	background-position: 50% 50%;
 	background-size: 300px 200px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto09 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/fto3.png");
+	background: url("../imagens/fto3.png");
 	background-position: 50% 50%;
 	background-size: 300px 300px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto010 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/fto4.jpg");
+	background: url("../imagens/fto4.jpg");
 	background-position: 50% 50%;
 	background-size: 300px 300px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto011 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/fto7.png");
+	background: url("../imagens/fto7.png");
 	background-position: 50% 50%;
 	background-size: 300px 300px;
 	background-color: #ffffff;
 }
 
 ul#album-fotos li#foto012 {
-	background: url("C:/Users/Daniel Dias/workspace/OmegaWare/WebContent/imagens/fto6.png");
+	background: url("../imagens/fto6.png");
 	background-position: 50% 50%;
 	background-size: 300px 300px;
 	background-color: #ffffff;
